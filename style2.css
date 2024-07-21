@@ -53,11 +53,11 @@ body::-webkit-scrollbar {
     background: transparent;
 }
 #alret{
-    position:absolute;
-    bottom:15px;
-    left:30px;
-    font-family:'dg';
-    font-size:var(--custom-canvas-chat-font);
+    position: absolute;
+    bottom: 7%;
+    left: 15px;
+    font-size: var(--custom-canvas-chat-font);
+    font-family: 'dg';
 }
 #lkjall {
     width: 100%;
@@ -189,7 +189,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
 #lkjall>#lkjside_middle_info>#lkjside_middle_info_left {
