@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이경진</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
+
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const boxX = 50;
+        const boxY = 50;
+        const boxWidth = 300;
+        const boxHeight = 100;
+        const boxRadius = 10;
+        const text = "Main Hub of";
+        const text2 = "Lee Kyung Jin";
+        const font = "Arial";
+        const textX = boxX + 20;
+        const textY = boxY + 40;
+        const textColor = '#4E2B20';
+        const boxColor = '#4E2B20';
+        const duration = 3000; // Total duration for the text animation
+        const frameRate = 60; // Frame rate for the animation
+
+        let startTime;
+
+        const drawRoundedRect = (x, y, width, height, radius, progress) => {
+            const p = Math.min(progress, 1);
+            const w = width * p;
+            const h = height * p;
+
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + w - radius, y);
+            if (p > 0.25) ctx.quadraticCurveTo(x + w, y, x + w, y + radius);
+            if (p > 0.5) ctx.lineTo(x + w, y + h - radius);
+            if (p > 0.75) ctx.quadraticCurveTo(x + w, y + h, x + w - radius, y + h);
+            if (p > 1) ctx.lineTo(x + radius, y + h);
+            ctx.lineTo(x + radius, y + h);
+            ctx.quadraticCurveTo(x, y + h, x, y + h - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+            ctx.stroke();
+        };
+
+        const drawText = (text, x, y, progress) => {
+            ctx.font = '24px ' + font;
+            ctx.fillStyle = textColor;
+            const numChars = Math.floor(text.length * progress);
+            ctx.fillText(text.slice(0, numChars), x, y);
+        };
+
+        const animate = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const elapsed = timestamp - startTime;
+            const progress = elapsed / duration;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw the box
+            ctx.strokeStyle = boxColor;
+            ctx.lineWidth = 2;
+            drawRoundedRect(boxX, boxY, boxWidth, boxHeight, boxRadius, progress);
+
+            // Draw the text
+            drawText(text, textX, textY, progress);
+            drawText(text2, textX + 28, textY + 28, progress);
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            }
+        };
+
+        requestAnimationFrame(animate);
+    </script>
+</body>
+</html>

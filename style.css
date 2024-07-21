@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "mabi";
+    src: url("./font/Mabinogi_Classic_TTF.ttf");
+}
+
+@font-face {
+    font-family: "marker";
+    src: url("./font/marker.ttf");
+}
+
+@font-face {
+    font-family: "poker";
+    src: url("./font/pokersuits.ttf");
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* #allheader {
+    margin-inline: auto;
+    width: 90%;
+    background: transparent;
+    height: 50px;
+    margin-top: 2rem;
+    padding-bottom: 10px;    
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0));
+}
+#allheader .headerdiv{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.651);
+    box-shadow: 3px 3px 2px 2px black;
+    border-radius: 6px;
+    left: max(calc(130px * 9), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-family: 'mabi';
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2em;
+    user-select: none;
+    cursor: pointer;
+}
+#allheader .headerdiv.on{
+    background-color: yellow;
+    font-weight: 900;
+}
+#allheader:hover *{
+    animation-play-state: paused;
+}
+#allheader #allheader .headerdiv1{
+    animation-delay: calc(60s / 9 *(9 - 1) * -1);
+}
+#allheader .headerdiv2 {
+animation-delay: calc(60s / 9 *(9 - 2) * -1);
+}
+
+#allheader .headerdiv3 {
+animation-delay: calc(60s / 9 *(9 - 3) * -1);
+}
+
+#allheader .headerdiv4 {
+animation-delay: calc(60s / 9 *(9 - 4) * -1);
+}
+
+#allheader .headerdiv5 {
+animation-delay: calc(60s / 9 *(9 - 5) * -1);
+}
+
+#allheader .headerdiv6 {
+animation-delay: calc(60s / 9 *(9 - 6) * -1);
+}
+
+#allheader .headerdiv7 {
+animation-delay: calc(60s / 9 *(9 - 7) * -1);
+}
+
+#allheader .headerdiv8 {
+animation-delay: calc(60s / 9 *(9 - 8) * -1);
+}
+#allheader .headerdiv9 {
+    animation-delay: calc(60s / 9 *(9 - 9) * -1);
+    }
+@keyframes scrollLeft {
+to {
+left: -100px;
+}
+} */
+
+#allfooter{
+    width: 40px;
+    height: 20px;
+    position: fixed;
+    display: flex;    
+    border-radius: 10px;
+    background: rgb(249,210,84);
+    background: linear-gradient(198deg, rgba(249,210,84,0.8799894957983193) 25%, rgba(240,198,61,1) 63%, rgba(231,200,102,1) 93%);
+    bottom:5px;
+    right: 40px;
+    
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 2px black;
+    transition: width 1.5s, height 1s, opacity 0.8s;
+    transform-origin: right bottom;
+}
+#allfooter>#footercanvas{
+    opacity: 0;
+}
+#allfooter:hover{
+    width: 200px;
+    height: 110px;
+    transition: width 2s, height 1s, opacity 1.2s;
+}
+#allfooter:hover>#footercanvas{
+    opacity: 1;
+}
+
+#allsection{   
+    margin-inline: auto; 
+    width: 90%;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#sideheader{
+    font-family: 'poker' , 'mabi';
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left:100px;
+    mask-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 4%,
+    rgba(0, 0, 0, 1) 96%,
+    rgba(0, 0, 0, 0));
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;    
+}
+#sideheader>.sideheadrInfo{
+    margin-top:200px;
+}
+#sideheader>#sideHeaderDivBox{
+    overflow: hidden;
+    height: 0px;
+    transition: height 1.5s;
+    transform-origin: top;
+    cursor: pointer;
+}
+#sideheader>#sideHeaderDivBox.flex{
+    overflow: hidden;
+    height: 100%;
+    transition: height 1.5s;
+    transform-origin: top;
+}
+#sideHeaderDivBoxOpen{
+    font-size: 45px;
+    cursor: pointer;
+    user-select: none;
+}
+#sideHeaderDivBox{
+    font-size: 25px;
+}
+#sideHeaderDivBox>.headerdiv{
+    background-color: rgb(215, 234, 250);
+    padding: 5px;
+}
+#sideHeaderDivBox>.headerdiv::before{
+    content: "●";
+    font-size: 5px;
+}
+#main_1{
+    margin-top: min(200px, 30%);    
+    width: 50%;
+    min-height: 900px;    
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+
+}
+#main_1>p{    
+    margin-bottom: 3em;
+    font-size: 32px;
+    font-family: 'poker';
+    cursor: pointer;
+}
+#main_1>p>i{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 12px;
+}
+#main_1_gotogit>i{
+    background-image: url('./img/github.png');
+}
+#main_1_prj>i{
+    background-image: url('./img/prj.png');
+}
+#main_1_skill>i{
+    background-image: url('./img/skill.png');
+}
+#main_1>h1{
+    display: inline-block;
+    font-size: 45px;
+    font-family: 'poker';
+    user-select: none;
+    cursor: pointer;
+}
+#main_1>h1:hover{
+    animation: ascent 1s ease forwards
+}
+@keyframes ascent{
+    to{
+        text-shadow: 0px -80px rgb(73, 73, 73);
+    }
+}
+
+#main{
+    width: 60%;
+    display: flex;
+    flex-direction: column;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.siteAll{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1em;
+    margin-bottom: 5em;
+}
+.siteAll>div{
+    font-family: 'poker', 'mabi';
+    cursor: pointer;
+}
+.siteName{
+    grid-column: 1 / span 2;
+    text-align: start;
+    font-size: 35px;
+}
+.siteName>span{
+    display: inline-block;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.siteUrl{
+    text-align: end;
+    font-size: 15px;
+}
+.siteCmt{
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-size: 18px;
+}
+.siteTag{
+    grid-column: 2 ;
+    display: flex;
+    justify-content: center;
+}
+.siteTag>.langtag{
+    display: inline-block;
+    margin-right: 15px;
+}
+.langtag.on{
+    background-color: rgba(255, 166, 0, 0.705);
+    font-weight: 900;
+}

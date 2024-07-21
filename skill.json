@@ -1,0 +1,31 @@
+{
+    "skills":[
+        {"lang" : "JAVA",
+        "progress" : 25
+        },
+        {"lang" : "HTML",
+        "progress" : 30
+        },
+        {"lang" : "VUE3",
+        "progress" : 15
+        },
+        {"lang" : "SPRING3",
+        "progress" : 20
+        },
+        {"lang" : "JAVASCRIPT",
+        "progress" : 34
+        },
+        {"lang" : "CSS",
+        "progress" : 30
+        },
+        {"lang" : "JQUERY",
+        "progress" : 30
+        },
+        {"lang" : "SPRING BOOT",
+        "progress" : 17
+        },
+        {"lang" : "MYSQL",
+        "progress" : 22
+        }
+    ]
+}

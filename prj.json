@@ -1,0 +1,299 @@
+{
+    "prjs": [
+        {
+            "name": "pagefullstory",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery",
+                "prj",
+                "java",
+                "MySQL",
+                "SPRING3"
+            ],
+            "arg": {
+                "type": "img",
+                "url": "",
+                "ess": [
+                    "css",
+                    "MySQL",
+                    "SPRING3"
+                ],"git" : "https://github.com/Qj10043210/pagefullstory_final"
+            },
+            "done": true,
+            "cmt": "학원과정 3차프로젝트. MySQL을 이용하여 다른 클라이언트끼리 연결."
+        },
+        {
+            "name": "coingate",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery",
+                "prj",
+                "java",
+                "MySQL",
+                "SPRING3"
+            ],
+            "arg": {
+                "type": "img",
+                "url": "",
+                "ess": [
+                    "JQuery",
+                    "SPRING3",
+                    "java"
+                ],"git" : "https://github.com/Qj10043210/coingate"
+            },
+            "done": true,
+            "cmt": "학원과정 2차프로젝트. api 이용 및 java spring 이용해 백엔드-프론트엔드 구현"
+        },
+        {
+            "name": "legoSite",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery",
+                "prj"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/LegoSite",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/LegoSite"
+            },
+            "done": true,
+            "cmt": "학원과정 1차프로젝트. 기존 사이트 리뉴얼 프로젝트. git을 이용해 많은 이미지 사용 시도"
+        },
+        {
+            "name": "FinalVue3Project",
+            "lang": [
+                "HTML",
+                "css",
+                "Vue",
+                "java",
+                "Javascript",
+                "SPRING boot",
+                "MySQL",
+                "prj"
+            ],
+            "arg": {
+                "type": "img",
+                "url": "https://qj10043210.github.io/VueFinal/",
+                "ess": [
+                    "SPRING boot",
+                    "Vue",
+                    "java"
+                ],"git" : "https://github.com/Qj10043210/VueFinal"
+            },
+            "done": false,
+            "cmt": "vue3 및 spring boot 이용 OPA 프로젝트"
+        },
+        {
+            "name": "sdoku",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/sdokujin/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/sdokujin"
+            },
+            "done": true,
+            "cmt": "table 이용한 스도쿠 게임."
+        },
+        {
+            "name": "personalProject",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/personalProject/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/personalProject"
+            },
+            "done": true,
+            "cmt": "3차프로젝트 대비 index용 페이지"
+        },
+        {
+            "name": "shooting",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/Shooting/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/Shooting"
+            },
+            "done": false,
+            "cmt": "랜덤하게 div가 생성되어 다가오는 디자인의 슈팅게임 고안"
+        },
+        {
+            "name": "fontbank",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/FontBank/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/FontBank"
+            },
+            "done": true,
+            "cmt": "사용한 폰트를 정리하기 위한 싱글페이지"
+        },
+        {
+            "name": "colorbank",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/ColorBank/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/ColorBank"
+            },
+            "done": true,
+            "cmt": "사용한 색상을 정리하기 위한 싱글페이지"
+        },
+        {
+            "name": "bookedit",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/bookEdit/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/bookEdit"
+            },
+            "done": true,
+            "cmt": "최초 프로젝트. js와 html, css 파일 구분 연습"
+        },
+        {
+            "name": "fivestone",
+            "lang": [
+                "HTML",
+                "Javascript",
+                "css",
+                "JQuery"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/fivestone/",
+                "ess": [
+                    "JQuery",
+                    "Javascript",
+                    "css"
+                ],"git" : "https://github.com/Qj10043210/fivestone"
+            },
+            "done": false,
+            "cmt": "div로 구획 후, 오목 시스템 구현 연습, 스스로 계산하여 새로 돌을 놓게 하려함"
+        },
+        {
+            "name": "Vue연습",
+            "lang": [
+                "HTML",
+                "css",
+                "Vue",
+                "Javascript"
+            ],
+            "arg": {
+                "type": "git",
+                "url": "https://qj10043210.github.io/vueTest_03_modal/",
+                "ess": [
+                    "Vue",
+                    "Javascript"
+                ],"git" : "https://github.com/Qj10043210/vueTest_03_modal"
+            },
+            "done": true,
+            "cmt": "Vue 연습 목록"
+        },
+        {
+            "name": "vue_springboot연습",
+            "lang": [
+                "HTML",
+                "css",
+                "Vue",
+                "java",
+                "Javascript",
+                "SPRING boot"
+            ],
+            "arg": {
+                "type": "img",
+                "url": "",
+                "ess": [
+                    "Vue",
+                    "SPRING boot"
+                ],"git" : "https://github.com/Qj10043210/vue_springbootPrac"
+            },
+            "done": true,
+            "cmt": "vue와 spring boot 연결 연습"
+        },
+        {
+            "name": "vue_springboot_mysql연습",
+            "lang": [
+                "HTML",
+                "css",
+                "Vue",
+                "java",
+                "Javascript",
+                "SPRING boot",
+                "MySQL"
+            ],
+            "arg": {
+                "type": "img",
+                "url": "",
+                "ess": [
+                    "Vue",
+                    "SPRING boot"
+                ],"git" : "https://github.com/Qj10043210/vue_mysql_springbootPrac"
+            },
+            "done": true,
+            "cmt": "vue와 spring boot 그리고 mysql 연결 연습"
+        }
+    ]
+}
