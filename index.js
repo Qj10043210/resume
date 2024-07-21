@@ -111,7 +111,7 @@ window.addEventListener(
     false
 );
 
-// Elevator.eledraw();
+Elevator.eledraw();
 //test
 elvator_button_boxes.forEach((button, index) => {
     button.addEventListener("click", async () => {
