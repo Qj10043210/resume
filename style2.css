@@ -52,7 +52,13 @@ body::-webkit-scrollbar {
     display: none;
     background: transparent;
 }
-
+#alret{
+    position:absolute;
+    bottom:15px;
+    left:30px;
+    font-family:'dg';
+    font-size:var(--custom-canvas-chat-font);
+}
 #lkjall {
     width: 100%;
     height: calc(var(--custom-inner-height) * var(--custom-inner-amount));
