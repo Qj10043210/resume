@@ -189,6 +189,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    position:relative;
 }
 
 #lkjall>#lkjside_middle_info>#lkjside_middle_info_left {
