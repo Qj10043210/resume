@@ -22,7 +22,7 @@
                 ],"git" : "https://github.com/Qj10043210/pagefullstory_final"
             },
             "done": true,
-            "cmt": "학원과정 3차프로젝트. MySQL을 이용하여 다른 클라이언트끼리 연결."
+            "cmt": "학원과정 3차프로젝트. MySQL을 이용하여 다른 클라이언트끼리 연결. 기여도 100%"
         },
         {
             "name": "coingate",
@@ -46,7 +46,7 @@
                 ],"git" : "https://github.com/Qj10043210/coingate"
             },
             "done": true,
-            "cmt": "학원과정 2차프로젝트. api 이용 및 java spring 이용해 백엔드-프론트엔드 구현"
+            "cmt": "학원과정 2차프로젝트. api 이용 및 java spring 이용해 백엔드-프론트엔드 구현. 기여도 90%"
         },
         {
             "name": "legoSite",
@@ -67,7 +67,7 @@
                 ],"git" : "https://github.com/Qj10043210/LegoSite"
             },
             "done": true,
-            "cmt": "학원과정 1차프로젝트. 기존 사이트 리뉴얼 프로젝트. git을 이용해 많은 이미지 사용 시도"
+            "cmt": "학원과정 1차프로젝트. 기존 사이트 리뉴얼 프로젝트. git을 이용해 많은 이미지 사용 시도. 기여도 95%"
         },
         {
             "name": "FinalVue3Project",
