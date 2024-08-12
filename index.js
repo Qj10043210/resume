@@ -35,6 +35,7 @@ let DivMainInfoMsg = new div(
 );
 document.addEventListener("DOMContentLoaded", function () {
     actionDefault();
+    Elevator.eledraw();
     fetchJSONFile(jsonPath1)
         .then((data) => {
             skills = data.skills;
@@ -111,7 +112,7 @@ window.addEventListener(
     false
 );
 
-Elevator.eledraw();
+
 //test
 elvator_button_boxes.forEach((button, index) => {
     button.addEventListener("click", async () => {
