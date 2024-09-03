@@ -35,7 +35,7 @@ let DivMainInfoMsg = new div(
 );
 document.addEventListener("DOMContentLoaded", function () {
     actionDefault();
-    Elevator.eledraw();
+    Elevator.eledraw(0);
     fetchJSONFile(jsonPath1)
         .then((data) => {
             skills = data.skills;
